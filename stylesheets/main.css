@@ -127,11 +127,6 @@ section h1 {
   margin-bottom: 3px;
 }
 
-.left, .middle {
-  border-right: 1px solid white;
-}
-
-
 .right:after {
   content: "";
   display: none;
@@ -139,7 +134,33 @@ section h1 {
 }
 
 .education  {
-  margin: 30px 0 0  -40px;
+  margin: 30px 0 0 -40px;
+}
+#projects {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.project {
+  margin: 0 20px;
+  width: 130px;
+  height: 130px;
+  vertical-align: top;
+}
+
+#calc {
+  background: url("http://i34.photobucket.com/albums/d101/Lee45276/Screenshot%202016-03-23%2020.39.54_zpsqjqaqqtm.png") 0 0 no-repeat;
+  background-size: cover;
+}
+
+#joke {
+  background: url("http://i34.photobucket.com/albums/d101/Lee45276/Screenshot%202016-03-23%2020.43.29_zpsa0rrkltd.png") 0 0 no-repeat;
+  background-size: cover;
+}
+
+#simon {
+  background: url("http://i34.photobucket.com/albums/d101/Lee45276/Screenshot%202016-03-23%2020.41.12_zpsscgtmm9b.png") 0 0 no-repeat;
+  background-size: cover;
 }
 
 .strong {
